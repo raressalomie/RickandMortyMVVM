@@ -14,6 +14,9 @@
 		92618EC12B8A9AF200503EDC /* RMEpisodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92618EC02B8A9AF200503EDC /* RMEpisodeViewController.swift */; };
 		92618EC32B8A9B0400503EDC /* RMSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92618EC22B8A9B0400503EDC /* RMSettingsViewController.swift */; };
 		92618EC52B8A9B1100503EDC /* RMLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92618EC42B8A9B1100503EDC /* RMLocationViewController.swift */; };
+		92618EC72B8AB00B00503EDC /* RMService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92618EC62B8AB00B00503EDC /* RMService.swift */; };
+		92618EC92B8AB02F00503EDC /* RMRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92618EC82B8AB02F00503EDC /* RMRequest.swift */; };
+		92618ECB2B8AB12E00503EDC /* RMEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92618ECA2B8AB12E00503EDC /* RMEndpoint.swift */; };
 		92784E222B5FF62100157220 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92784E212B5FF62100157220 /* AppDelegate.swift */; };
 		92784E242B5FF62100157220 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92784E232B5FF62100157220 /* SceneDelegate.swift */; };
 		92784E262B5FF62100157220 /* RMTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92784E252B5FF62100157220 /* RMTabViewController.swift */; };
@@ -29,6 +32,9 @@
 		92618EC02B8A9AF200503EDC /* RMEpisodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEpisodeViewController.swift; sourceTree = "<group>"; };
 		92618EC22B8A9B0400503EDC /* RMSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSettingsViewController.swift; sourceTree = "<group>"; };
 		92618EC42B8A9B1100503EDC /* RMLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMLocationViewController.swift; sourceTree = "<group>"; };
+		92618EC62B8AB00B00503EDC /* RMService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMService.swift; sourceTree = "<group>"; };
+		92618EC82B8AB02F00503EDC /* RMRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMRequest.swift; sourceTree = "<group>"; };
+		92618ECA2B8AB12E00503EDC /* RMEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEndpoint.swift; sourceTree = "<group>"; };
 		92784E1E2B5FF62100157220 /* RickAndMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92784E212B5FF62100157220 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92784E232B5FF62100157220 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +97,9 @@
 		92618EAD2B8A982600503EDC /* APIManagers */ = {
 			isa = PBXGroup;
 			children = (
+				92618EC62B8AB00B00503EDC /* RMService.swift */,
+				92618EC82B8AB02F00503EDC /* RMRequest.swift */,
+				92618ECA2B8AB12E00503EDC /* RMEndpoint.swift */,
 			);
 			path = APIManagers;
 			sourceTree = "<group>";
@@ -226,8 +235,11 @@
 				92784E242B5FF62100157220 /* SceneDelegate.swift in Sources */,
 				92618EB02B8A98D300503EDC /* RMLocation.swift in Sources */,
 				92618EC52B8A9B1100503EDC /* RMLocationViewController.swift in Sources */,
+				92618EC72B8AB00B00503EDC /* RMService.swift in Sources */,
 				92618EB22B8A98F100503EDC /* RMCharacter.swift in Sources */,
+				92618ECB2B8AB12E00503EDC /* RMEndpoint.swift in Sources */,
 				92618EBF2B8A9ADD00503EDC /* RMCharacterViewController.swift in Sources */,
+				92618EC92B8AB02F00503EDC /* RMRequest.swift in Sources */,
 				92618EC12B8A9AF200503EDC /* RMEpisodeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
