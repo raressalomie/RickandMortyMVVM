@@ -29,7 +29,11 @@ extension RMCharacterListViewViewModel: UICollectionViewDataSource, UICollection
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: RMCharacterCollectionViewCell.cellIdentifier, for: indexPath)
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: RMCharacterCollectionViewCell.cellIdentifier, for: indexPath) as? RMCharacterCollectionViewCell else {
+            fatalError("Unsupported cell")
+        }
+        let url = URL(string: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.linkedin.com%2Fin%2Frares-salomie-321052b3&psig=AOvVaw0SKgf7s_YhMknH0OeXr9C7&ust=1711471528847000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCIiX7bXuj4UDFQAAAAAdAAAAABAE")
+        let viewModel = RMCharacterCollectionViewCellViewModel(characterName: "Rares", characterStatus: .alive, characterImageUrl: url)
         return cell
     }
     
